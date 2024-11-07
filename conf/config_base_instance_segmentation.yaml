@@ -47,9 +47,9 @@ general:
 
   max_batch_size: 99999999
 
-  data_dir: ~/adl4cv/data
-  save_dir: ~/adl4cv/out/${general.experiment_name}
-  self_train_data_dir: ~/adl4cv/pretrained_models/unscene3d
+  data_dir: data/processed/scannet_freemask
+  save_dir: saved/${general.experiment_name}
+  self_train_data_dir: data/freemasks/unscene3d_preds
 
   # time/commit/md5(config)_uuid
   # time/experiment_id/version_uuid
